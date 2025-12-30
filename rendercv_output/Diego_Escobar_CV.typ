@@ -89,7 +89,7 @@
   [#connection-with-icon("location-dot")[El Salvador]],
   [#link("mailto:diegoalejandoescobarahona1@gmail.com", icon: false, if-underline: false, if-color: false)[#connection-with-icon("envelope")[diegoalejandoescobarahona1\@gmail.com]]],
   [#link("tel:+503-7549-0118", icon: false, if-underline: false, if-color: false)[#connection-with-icon("phone")[7549 0118]]],
-  [#link("https://bapatata688.github.io/Portfolio-ds/", icon: false, if-underline: false, if-color: false)[#connection-with-icon("link")[bapatata688.github.io\/Portfolio-ds]]],
+  [#link("https://bapatata688.github.io/resume/", icon: false, if-underline: false, if-color: false)[#connection-with-icon("link")[bapatata688.github.io\/resume]]],
   [#link("https://linkedin.com/in/diego-escobar", icon: false, if-underline: false, if-color: false)[#connection-with-icon("linkedin")[diego-escobar]]],
 )
 
