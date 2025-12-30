@@ -1,13 +1,12 @@
 cv:
   name: Diego Escobar
   location: El Salvador
-  email: diego.escobar@email.com
+  email: diegoalejandoescobarahona1@gmail.com
   phone: "+503 75490118"
   website: "https://bapatata688.github.io/Portfolio-ds/"
   social_networks:
     - network: LinkedIn
       username: diego-escobar
-
   sections:
     summary:
       - >
@@ -18,36 +17,15 @@ cv:
         a call center environment, strengthening professionalism, call control, and
         performance under pressure. Motivated to use interpreting skills to help
         people communicate clearly and effectively.
-
     skills:
       - label: Languages
-        details:
-          - English (Advanced / Near-native – C1)
-          - Spanish (Native)
-
+        details: English (Advanced / Near-native – C1), Spanish (Native)
       - label: Interpretation Skills
-        details:
-          - Consecutive interpretation (English ↔ Spanish)
-          - Active listening and message accuracy
-          - Neutral tone and professional ethics
-          - Confidentiality and information handling
-          - Cultural awareness
-
+        details: Consecutive interpretation (English ↔ Spanish), Active listening and message accuracy, Neutral tone and professional ethics, Confidentiality and information handling, Cultural awareness
       - label: Professional Skills
-        details:
-          - Clear verbal communication
-          - Customer service
-          - Call handling and real-time communication
-          - Stress management
-          - Fast learning and adaptability
-
+        details: Clear verbal communication, Customer service, Call handling and real-time communication, Stress management, Fast learning and adaptability
       - label: Technical Skills
-        details:
-          - Call center systems
-          - CRM tools (basic)
-          - Remote communication platforms
-          - Computer literacy
-
+        details: Call center systems, CRM tools (basic), Remote communication platforms, Computer literacy
     experience:
       - company: Teleperformance
         position: Customer Service Representative
@@ -64,12 +42,11 @@ cv:
           - >
             Gained experience in real-time conversations, preparing for live
             interpretation environments.
-
       - company: Community & Family Interpretation
         position: English–Spanish Interpreter (Informal / Community Experience)
         location: El Salvador
         start_date: 2020-01-01
-        end_date: Present
+        end_date: present
         highlights:
           - >
             Provided consecutive English–Spanish interpretation in real-life family
@@ -83,23 +60,12 @@ cv:
           - >
             Maintained confidentiality while assisting in everyday conversations and
             explanations.
-
     education:
       - institution: Instituto Nacional San Luis
         area: High School Diploma
         location: El Salvador
         start_date: 2020-01-01
         end_date: 2023-12-01
-
-    languages:
-      - language: Spanish
-        fluency: Native
-      - language: English
-        fluency: Advanced / Near-native
-
-    interests:
-      - Language interpretation
-      - Communication and linguistics
-      - Helping people connect across cultures
-      - Continuous self-improvement
-
+    additional_information:
+      - 'Languages: Spanish (Native), English (Advanced / Near-native)'
+      - 'Interests: Language interpretation, Communication and linguistics, Helping people connect across cultures, Continuous self-improvement'
