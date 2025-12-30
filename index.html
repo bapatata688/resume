@@ -1,118 +1,350 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Diego Alejandro Escobar - Portafolio</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link rel="stylesheet" type="" href="index.css">
+  <title>Professional Interpreter Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background-color: #f8f9fa;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background-color: white;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Hero Section */
+    .hero {
+      background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+      color: white;
+      padding: 60px 40px;
+      text-align: center;
+    }
+
+    .profile-photo {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 5px solid white;
+      margin: 0 auto 20px;
+      display: block;
+      object-fit: cover;
+      background-color: #ecf0f1;
+    }
+
+    .hero h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+      font-weight: 600;
+    }
+
+    .hero .role {
+      font-size: 1.3em;
+      margin-bottom: 15px;
+      opacity: 0.95;
+    }
+
+    .languages {
+      display: inline-block;
+      background-color: rgba(255, 255, 255, 0.2);
+      padding: 8px 20px;
+      border-radius: 20px;
+      font-size: 1em;
+    }
+
+    /* Section Styles */
+    section {
+      padding: 50px 40px;
+      border-bottom: 1px solid #e0e0e0;
+    }
+
+    section:last-child {
+      border-bottom: none;
+    }
+
+    h2 {
+      color: #2c3e50;
+      font-size: 1.8em;
+      margin-bottom: 25px;
+      padding-bottom: 10px;
+      border-bottom: 3px solid #3498db;
+      display: inline-block;
+    }
+
+    /* About Section */
+    .about p {
+      font-size: 1.1em;
+      color: #555;
+      line-height: 1.8;
+    }
+
+    /* Skills Section */
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .skill-card {
+      background-color: #f8f9fa;
+      padding: 20px;
+      border-left: 4px solid #3498db;
+    }
+
+    .skill-card h3 {
+      color: #2c3e50;
+      margin-bottom: 10px;
+      font-size: 1.2em;
+    }
+
+    .skill-card p {
+      color: #666;
+      font-size: 0.95em;
+    }
+
+    /* Experience Section */
+    .experience-item {
+      margin-bottom: 30px;
+      padding-left: 20px;
+      border-left: 3px solid #3498db;
+    }
+
+    .experience-item:last-child {
+      margin-bottom: 0;
+    }
+
+    .experience-header {
+      margin-bottom: 10px;
+    }
+
+    .experience-header h3 {
+      color: #2c3e50;
+      font-size: 1.3em;
+      margin-bottom: 5px;
+    }
+
+    .experience-header .role {
+      color: #3498db;
+      font-weight: 600;
+      font-size: 1.05em;
+    }
+
+    .experience-header .date {
+      color: #7f8c8d;
+      font-size: 0.95em;
+    }
+
+    .experience-item ul {
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+
+    .experience-item li {
+      color: #555;
+      margin-bottom: 8px;
+    }
+
+    /* Contact Section */
+    .contact {
+      background-color: #f8f9fa;
+    }
+
+    .contact-info {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .contact-item {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      padding: 15px;
+      background-color: white;
+      border-radius: 5px;
+      border: 1px solid #e0e0e0;
+    }
+
+    .contact-item strong {
+      color: #2c3e50;
+      min-width: 100px;
+    }
+
+    .contact-item a {
+      color: #3498db;
+      text-decoration: none;
+    }
+
+    .contact-item a:hover {
+      text-decoration: underline;
+    }
+
+    .download-cv {
+      display: inline-block;
+      background-color: #3498db;
+      color: white;
+      padding: 12px 30px;
+      border-radius: 5px;
+      text-decoration: none;
+      margin-top: 20px;
+      font-weight: 600;
+    }
+
+    .download-cv:hover {
+      background-color: #2980b9;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .hero {
+        padding: 40px 20px;
+      }
+
+      .hero h1 {
+        font-size: 2em;
+      }
+
+      section {
+        padding: 40px 20px;
+      }
+
+      .skills-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
 </head>
 
 <body>
   <div class="container">
-    <header>
-      <!-- <div class="profile-pic"> -->
-      <!-- <i class="fas fa-user-graduate"></i> -->
-      <!-- </div> -->
-      <h1>Diego Alejandro Escobar Barahona</h1>
-      <p class="subtitle">Desarrollador entusiasta Full Stack JavaScript</p>
-    </header>
-
-    <div class="content">
-      <section class="section">
-        <h2 class="section-title">
-          <i class="fas fa-user"></i>
-          Información Personal
-        </h2>
-        <div class="info-grid">
-          <div class="info-item">
-            <div class="info-label">Edad</div>
-            <div class="info-value">18 años</div>
-          </div>
-          <div class="info-item">
-            <div class="info-label">Institución</div>
-            <div class="info-value">Instituto Nacional San Luis</div>
-          </div>
-          <div class="info-item">
-            <div class="info-label">2do Desarrollo de Software</div>
-            <div class="info-value">Seccion: A </div>
-          </div>
-          <!-- <div class="info-item"> -->
-          <!--   <div class="info-label">Año y Sección</div> -->
-          <!--   <div class="info-value">Segundo Año - Sección A</div> -->
-        </div>
-    </div>
+    <!-- Hero Section -->
+    <section class="hero">
+      <!-- 
+                TO ADD YOUR PROFILE PICTURE:
+                Replace the src attribute below with the path to your image.
+                Options:
+                1. If uploading to the same folder as this HTML file: src="your-photo.jpg"
+                2. If using an online image: src="https://example.com/your-photo.jpg"
+                3. Keep the alt text descriptive for accessibility
+            -->
+      <img src="placeholder-profile.jpg" alt="Professional profile photo" class="profile-photo">
+      <h1>Your Name Here</h1>
+      <p class="role">Bilingual English–Spanish Interpreter</p>
+      <div class="languages">English | Spanish</div>
     </section>
 
-    <section class="section">
-      <h2 class="section-title">
-        <i class="fas fa-code"></i>
-        Sobre Mí
-      </h2>
-      <p style="color: #555; line-height: 1.8;">
-        Soy un desarrollador entusiasta full stack especializado en JavaScript, apasionado por crear soluciones web
-        innovadoras y funcionales. Me enfoco en desarrollar aplicaciones que resuelvan problemas reales con
-        tecnologías modernas.
+    <!-- About Section -->
+    <section class="about">
+      <h2>About</h2>
+      <p>
+        Dedicated bilingual interpreter with extensive experience in live communication and customer service
+        environments.
+        Fluent in English and Spanish with a proven ability to facilitate clear, accurate, and culturally appropriate
+        interpretation across diverse settings. Committed to maintaining confidentiality, impartiality, and professional
+        ethics in all interpretation assignments. Skilled in adapting communication style to meet the needs of clients
+        in medical, legal, community, and business contexts.
       </p>
     </section>
 
-    <section class="section">
-      <h2 class="section-title">
-        <i class="fas fa-project-diagram"></i>
-        Proyectos Destacados
-      </h2>
-
-      <div class="project-card">
-        <h3 class="project-title">Adminia</h3>
-        <p class="project-desc">
-          Sistema de gestión de contabilidad diseñado específicamente para microempresas, facilitando el control
-          financiero y administrativo de manera eficiente.
-        </p>
-        <div class="project-tech">
-          <span class="tech-tag">TypeScript</span>
-          <span class="tech-tag">React</span>
-          <span class="tech-tag">PostgreSQL</span>
+    <!-- Skills Section -->
+    <section class="skills">
+      <h2>Core Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>Consecutive & Simultaneous Interpretation</h3>
+          <p>Expert in both modes of interpretation with strong active listening and memory retention skills.</p>
         </div>
-        <a href="https://adminia-frontend.vercel.app/" target="_blank" class="project-link">
-          Ver proyecto <i class="fas fa-external-link-alt"></i>
-        </a>
-      </div>
-
-      <div class="project-card">
-        <h3 class="project-title">WebShield</h3>
-        <p class="project-desc">
-          Constructor de páginas web con interfaz de arrastrar y soltar, diseñado para personas sin conocimientos
-          técnicos. Enfocado en seguridad y facilidad de uso.
-        </p>
-        <div class="project-tech">
-          <span class="tech-tag">React</span>
-          <span class="tech-tag">JavaScript</span>
-          <span class="tech-tag">PostgreSQL</span>
+        <div class="skill-card">
+          <h3>Professional Ethics & Confidentiality</h3>
+          <p>Strict adherence to interpreter code of ethics, maintaining impartiality and protecting sensitive
+            information.</p>
         </div>
-        <a href="https://webshield100-frontend.vercel.app/" target="_blank" class="project-link">
-          Ver proyecto <i class="fas fa-external-link-alt"></i>
-        </a>
+        <div class="skill-card">
+          <h3>Live Call Communication</h3>
+          <p>Proficient in managing real-time phone and video interpretation with clarity and professionalism.</p>
+        </div>
+        <div class="skill-card">
+          <h3>Cultural Competency</h3>
+          <p>Deep understanding of cultural nuances in both English and Spanish-speaking communities.</p>
+        </div>
+        <div class="skill-card">
+          <h3>Customer Service Excellence</h3>
+          <p>Strong interpersonal skills with a focus on client satisfaction and effective problem resolution.</p>
+        </div>
+        <div class="skill-card">
+          <h3>Terminology Management</h3>
+          <p>Specialized vocabulary in medical, legal, and business contexts with continuous professional development.
+          </p>
+        </div>
       </div>
     </section>
 
-    <section class="section">
-      <h2 class="section-title">
-        <i class="fab fa-github"></i>
-        Repositorios
-      </h2>
-      <a href="https://github.com/bapatata688?tab=repositories" target="_blank" class="github-btn">
-        <i class="fab fa-github"></i>
-        Ver todos mis repositorios
-      </a>
-    </section>
-  </div>
+    <!-- Experience Section -->
+    <section class="experience">
+      <h2>Professional Experience</h2>
 
-  <footer>
-    <p> 2025 Diego Alejandro Escobar Barahona</p>
-    <p style="font-size: 0.9rem; margin-top: 5px;">Tarea final - Desarrollo de Software</p>
-  </footer>
+      <div class="experience-item">
+        <div class="experience-header">
+          <h3>Teleperformance</h3>
+          <p class="role">Customer Service Representative</p>
+          <p class="date">November 2025 – January 2026</p>
+        </div>
+        <ul>
+          <li>Provided bilingual customer support for diverse client base in fast-paced call center environment</li>
+          <li>Managed high-volume inbound and outbound calls while maintaining quality and accuracy standards</li>
+          <li>Demonstrated strong problem-solving skills and cultural sensitivity in customer interactions</li>
+          <li>Consistently met or exceeded performance metrics for call resolution and customer satisfaction</li>
+        </ul>
+      </div>
+
+      <div class="experience-item">
+        <div class="experience-header">
+          <h3>Community & Family Interpretation</h3>
+          <p class="role">Freelance Interpreter</p>
+          <p class="date">2020 – Present</p>
+        </div>
+        <ul>
+          <li>Provide interpretation services for medical appointments, legal consultations, and community events</li>
+          <li>Facilitate communication between English and Spanish speakers in sensitive and confidential settings</li>
+          <li>Maintain strict professional ethics including accuracy, impartiality, and confidentiality</li>
+          <li>Build trust with clients through respectful, culturally appropriate communication</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+      <h2>Contact</h2>
+      <div class="contact-info">
+        <div class="contact-item">
+          <strong>Email:</strong>
+          <a href="mailto:your.email@example.com">your.email@example.com</a>
+        </div>
+        <div class="contact-item">
+          <strong>LinkedIn:</strong>
+          <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a>
+        </div>
+        <div class="contact-item">
+          <strong>Resume:</strong>
+          <a href="your-cv.pdf" class="download-cv" download>Download CV (PDF)</a>
+        </div>
+      </div>
+    </section>
   </div>
 </body>
 
