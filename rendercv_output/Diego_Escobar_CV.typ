@@ -5,7 +5,7 @@
 #show: rendercv.with(
   name: "Diego Escobar",
   footer: context { [#emph[Diego Escobar -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated in Dec 2025] ],
+  top-note: [ #emph[Last updated in Jan 2026] ],
   locale-catalog-language: "en",
   page-size: "us-letter",
   page-top-margin: 0.7in,
@@ -76,9 +76,9 @@
   entries-highlights-space-between-items: 0cm,
   entries-highlights-space-between-bullet-and-text: 0.5em,
   date: datetime(
-    year: 2025,
-    month: 12,
-    day: 30,
+    year: 2026,
+    month: 1,
+    day: 1,
   ),
 )
 
@@ -164,7 +164,7 @@ Bilingual English–Spanish interpreter with advanced English proficiency and ov
   [
     El Salvador
 
-    Jan 2020 – Dec 2023
+    Jan 2023 – Nov 2025
 
   ],
   degree-column: [

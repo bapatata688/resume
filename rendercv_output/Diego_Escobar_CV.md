@@ -76,7 +76,7 @@ Jan 2020 – present
 
 El Salvador
 
-Jan 2020 – Dec 2023
+Jan 2023 – Nov 2025
 
 
 
