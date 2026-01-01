@@ -29,7 +29,7 @@ Nov 2025 – Jan 2026
 
 
 
-3 months
+2 months
 
 - Handled live customer calls in a fast-paced call center environment, providing accurate and professional support.
 
@@ -47,11 +47,11 @@ Nov 2025 – Jan 2026
 
 El Salvador
 
-Jan 2020 – present
+Jan 2022 – present
 
 
 
-6 years 1 month
+4 years 1 month
 
 - Provided consecutive English–Spanish interpretation in real-life family and community situations.
 

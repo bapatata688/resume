@@ -31,7 +31,7 @@ cv:
         position: Customer Service Representative
         location: El Salvador
         start_date: 2025-11-03
-        end_date: 2026-01-03
+        end_date: 2026-01-01
         highlights:
           - >
             Handled live customer calls in a fast-paced call center environment,
@@ -45,7 +45,7 @@ cv:
       - company: Community & Family Interpretation
         position: English–Spanish Interpreter (Informal / Community Experience)
         location: El Salvador
-        start_date: 2020-01-01
+        start_date: 2022-01-01
         end_date: present
         highlights:
           - >

@@ -126,7 +126,7 @@ Bilingual English–Spanish interpreter with advanced English proficiency and ov
 
     Nov 2025 – Jan 2026
 
-    3 months
+    2 months
 
   ],
 )
@@ -147,9 +147,9 @@ Bilingual English–Spanish interpreter with advanced English proficiency and ov
   [
     El Salvador
 
-    Jan 2020 – present
+    Jan 2022 – present
 
-    6 years 1 month
+    4 years 1 month
 
   ],
 )
