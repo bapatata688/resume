@@ -26,6 +26,7 @@ Web portfolio showcasing my experience in cloud data engineering, analytics engi
 ## Contact
 
 - **Email:** [diegoalejandroescobarahona1@gmail.com](mailto:diegoalejandroescobarahona1@gmail.com)
-- **LinkedIn:** [linkedin.com/in/diego-escobar-459256394](https://www.linkedin.com/in/diego-escobar-459256394)
+- **LinkedIn:** [linkedin.com/in/diego-escobar-dev](https://www.linkedin.com/in/diego-escobar-dev/)
 - **GitHub:** [github.com/bapatata688](https://github.com/bapatata688)
 - **Credly:** [credly.com/badges/e27fea72-5eaf-47ee-a43c-43faa3a8fb10](https://www.credly.com/badges/e27fea72-5eaf-47ee-a43c-43faa3a8fb10/public_url)
+
